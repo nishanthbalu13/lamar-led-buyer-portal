@@ -1,0 +1,37 @@
+/* ===== GLOBAL BASE STYLES ===== */
+    /* Dark industrial visual system with subtle gradients and crisp contrast */
+    body {
+      background: radial-gradient(circle at top, rgba(15,118,110,0.16), transparent 30%), #0a0a1a;
+      color: #f3f4f6;
+      text-rendering: optimizeLegibility;
+    }
+
+    /* ===== HERO SECTION STYLES ===== */
+    /* Mobile-first spacing to ensure headlines never touch viewport edges */
+    .hero-section {
+      background: linear-gradient(180deg, rgba(26,26,46,0.98), rgba(10,10,26,1));
+    }
+
+    /* ===== CARD HOVER STYLES ===== */
+    /* Subtle elevation for product cards and info panels */
+    .lift-hover {
+      transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+    }
+    .lift-hover:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 18px 50px rgba(0,0,0,0.32);
+      border-color: rgba(15,118,110,0.65);
+    }
+
+    /* ===== ACCENT TEXT STYLES ===== */
+    /* Teal accent treatment for key metrics and highlights */
+    .accent-teal {
+      color: #2dd4bf;
+    }
+
+    /* ===== BUTTON FOCUS STYLES ===== */
+    /* Accessible focus ring for keyboard navigation */
+    .focus-teal:focus-visible {
+      outline: 2px solid #2dd4bf;
+      outline-offset: 3px;
+    }
